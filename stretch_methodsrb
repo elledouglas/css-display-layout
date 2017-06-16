@@ -1,0 +1,34 @@
+my_dogs = [
+  { :name => 'Ralph', :position => 5 },
+  { :name => 'Cindy', :position => 8 },
+  { :name => 'Jade', :position => 11 },
+]
+
+
+def get_absent_dogs(array)
+  array.each do
+if :position >= 10
+   puts :position
+end
+end
+end
+
+def get_absent_dogs(array)
+sites = []
+ my_dogs.each do |dog|
+   dog[:position].each do |position|
+     if posiion >= 10
+       puts position
+end
+end
+end
+
+hash = { "key1" => "val1", "key2" => "val2" }
+
+def dog(array)
+  empty = []
+	array.each do |key, value|
+     if value >= 10
+       empty << return
+        end
+  end
